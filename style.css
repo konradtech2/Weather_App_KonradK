@@ -124,3 +124,53 @@ p {
     padding: 10px 20px;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 600px) {
+
+    
+    body {
+        font-size: 14px; 
+    }
+
+    
+    .weatherForm {
+        flex-direction: column;
+        width: 90%; 
+        padding: 15px;
+    }
+
+  
+    .cityInput {
+        width: 100%; 
+        box-sizing: border-box; 
+        margin-bottom: 10px; 
+        font-size: 1rem;
+    }
+    
+    
+    button[type="submit"] {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    
+    
+    .card {
+        min-width: 90%; 
+        padding: 30px 20px;
+        margin: 10px;
+    }
+
+    
+    .cityDisplay {
+        font-size: 2rem;
+    }
+    .tempDisplay {
+        font-size: 3rem;
+    }
+    .weatherEmoji {
+        font-size: 5rem;
+    }
+    .descDisplay {
+        font-size: 1.2rem;
+    }
+}
