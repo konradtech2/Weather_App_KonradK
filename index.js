@@ -1,4 +1,8 @@
-import { apiKey } from './config.js'; 
+
+import { config } from './config.js'; 
+
+
+const API_KEY = config.apiKey;
 
 const weatherForm = document.querySelector(".weatherForm");
 const cityInput = document.querySelector(".cityInput");
@@ -33,7 +37,7 @@ const card = document.querySelector(".card");
 
 
  async function getWeatherData(city){
-    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
 
     const response = await fetch(apiUrl);
 
