@@ -23,7 +23,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # TUTAJ JEST ZMIANA: Używamy secrets.APIKEY
+      
       - name: Create config.js
         run: |
           echo "export const config = { apiKey: '${{ secrets.APIKEY }}' };" > config.js
