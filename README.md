@@ -19,4 +19,4 @@ This project is a simple, front-end weather application built for portfolio purp
 4.  Open the `index.html` file in your browser.
 
 ---
-**Author:** Konrad [Your Last Name]
+**Author:** Konrad Koszyk
