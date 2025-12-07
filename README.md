@@ -10,9 +10,6 @@ This project is a simple, front-end weather application built for portfolio purp
 * **DOM Manipulation:** Dynamic creation and updating of the weather card based on the JSON response.
 * **Security Best Practice:** Implementation of a `.gitignore` file to protect the API key and ensure a clean, secure repository history.
 
-### 🖼️ Application Interface
-**(Embed the screenshot of your newly styled application here)**
-
 
 
 ### 🚀 How to Run Locally
