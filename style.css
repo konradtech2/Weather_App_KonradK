@@ -1,0 +1,126 @@
+body {
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+.weatherForm {
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.cityInput {
+    padding: 12px 15px;
+    font-size: 1.2rem; 
+    font-weight: normal;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 0; 
+    width: 250px;
+    transition: border-color 0.3s;
+    outline: none;
+}
+
+.cityInput:focus {
+    border-color: #4a90e2;
+}
+
+button[type="submit"] {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button[type="submit"]:hover {
+   
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(118, 75, 162, 0.4);
+}
+
+.card {
+    background: linear-gradient(180deg, #56CCF2 0%, #2F80ED 100%);    
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: white; 
+}
+
+h1 {
+    font-size: 2.5rem; 
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.cityDisplay {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: white; 
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.tempDisplay {
+    font-size: 4rem; 
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.humidityDisplay {
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.9); 
+    font-size: 1.2rem;
+}
+
+.descDisplay {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
+    text-transform: capitalize; 
+}
+
+.weatherEmoji {
+    margin: 10px 0;
+    font-size: 6rem;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2)); 
+}
+
+.errorDisplay {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffcccc; 
+    background: rgba(255, 0, 0, 0.1);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
